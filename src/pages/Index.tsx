@@ -1,3 +1,4 @@
+import GlobalBackground from "@/components/GlobalBackground";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProcessDemo from "@/components/ProcessDemo";
@@ -9,6 +10,7 @@ import CTAFooter from "@/components/CTAFooter";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <GlobalBackground />
       <Navbar />
       <HeroSection />
       <ProcessDemo />

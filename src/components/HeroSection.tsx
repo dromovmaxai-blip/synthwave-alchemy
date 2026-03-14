@@ -14,9 +14,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
       </div>
 
-      {/* Bokeh accents */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/10 blur-[120px] animate-pulse-glow" />
-      <div className="absolute bottom-1/3 right-1/4 w-72 h-72 rounded-full bg-accent/8 blur-[100px] animate-pulse-glow" style={{ animationDelay: "2s" }} />
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl px-6">
