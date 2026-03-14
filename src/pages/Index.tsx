@@ -9,6 +9,7 @@ import CTAFooter from "@/components/CTAFooter";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <GlobalBackground />
       <Navbar />
       <HeroSection />
       <ProcessDemo />
