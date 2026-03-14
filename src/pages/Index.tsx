@@ -1,3 +1,4 @@
+import GlobalBackground from "@/components/GlobalBackground";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProcessDemo from "@/components/ProcessDemo";
