@@ -11,7 +11,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover opacity-50 animate-float"
           style={{ animationDuration: "12s" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background/90" />
       </div>
 
 

@@ -9,15 +9,17 @@ import CTAFooter from "@/components/CTAFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden relative" style={{ backgroundColor: "hsl(var(--background))" }}>
       <GlobalBackground />
-      <Navbar />
-      <HeroSection />
-      <ProcessDemo />
-      <ComparisonShowcase />
-      <ValueGrid />
-      <ServicesSection />
-      <CTAFooter />
+      <div className="relative" style={{ zIndex: 1 }}>
+        <Navbar />
+        <HeroSection />
+        <ProcessDemo />
+        <ComparisonShowcase />
+        <ValueGrid />
+        <ServicesSection />
+        <CTAFooter />
+      </div>
     </div>
   );
 };
