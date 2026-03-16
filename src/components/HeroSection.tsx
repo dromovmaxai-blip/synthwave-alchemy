@@ -20,12 +20,10 @@ const HeroSection = () => {
         <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           AI Automation Agency
         </p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] tracking-tight mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-          We Build
+<h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] tracking-tight mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+          РЕАЛИСТИЧНЫЙ КОНТЕНТ С ВАШИМ ТОВАРОМ
           <br />
-          <span className="text-gradient-primary">Intelligent</span>
-          <br />
-          Systems
+          БЕЗ СТУДИЙНЫХ  СЪЕМОК
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 opacity-0 animate-fade-up" style={{ animationDelay: "0.6s" }}>
           Custom AI solutions that transform how your business operates. From automation to intelligence — engineered for scale.
